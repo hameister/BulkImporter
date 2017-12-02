@@ -1,6 +1,9 @@
 # BulkImporter
+The Bulk-Importer should insert many Item entities into a database. Only one SQL-insert should be executed for one batch.
 
-The REST-assured test creates 4 Items and calls the REST-Controller to import them into the H2-Database.
+# Description - Implementation
+
+There is a REST-assured test that creates 4 Items and calls the REST-Controller to import them into the H2-Database.
 
 In the application.properties I configured that a batch size of 5 should be used.
 
