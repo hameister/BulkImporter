@@ -82,3 +82,8 @@ I tried another approach:
  [https://www.quora.com/How-do-I-save-a-rolled-back-record-that-generated-a-batch-failure-with-JPA-and-Hibernate/answer/Vlad-Mihalcea-1](How do I save a rolled back record that generated a batch failure with JPA and Hibernate?)
 
  But the result is the same. For every `save` or `persist` an insert is executed. But the batch import does not work.
+
+
+ # Same Problem
+ I found a thread with the same problem here:
+ [https://stackoverflow.com/questions/34228044/how-to-enable-batch-inserts-with-hibernate-and-spring-boot](How to enable batch inserts with Hibernate and Spring Boot).
